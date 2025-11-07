@@ -51,3 +51,12 @@ git push -u origin main
 
 4. Website not updating: Verify artifacts are correctly output in CodeBuild, and deploy stage points to the correct S3 bucket.
 
+### Feature List
+1. Automated deployment on every GitHub commit.
+2. Build stage using CodeBuild to package files.
+3. Deployment to S3 bucket with static website hosting enabled.
+4. Public access configured using bucket policy to allow anyone to view the website.
+
+Features not included:
+1. Automated testing stage (optional)
+2. CloudFront CDN and monitoring via CloudWatch (optional)"
